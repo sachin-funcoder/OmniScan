@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+websockets
+pytest
+pytest-asyncio
+httpx
+httpx-ws
+# Phase 3 additions
+# opencv-python provides webcam capture and MJPEG frame encoding
+opencv-python
+# ultralytics pulls PyTorch (CPU build) automatically.
+# For GPU inference on NVIDIA RTX 2050 (CUDA 12.x), run:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# AFTER installing ultralytics — this replaces the CPU torch.
+ultralytics
